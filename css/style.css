@@ -1,0 +1,323 @@
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
+#beach {
+	margin: 0;
+	background-image: url(../img/yolka.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#mountains {
+	margin: 0;
+	background-image: url(../img/holm.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#forest {
+	margin: 0;
+	background-image: url(../img/les.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#lakes {
+	margin: 0;
+	background-image: url(../img/voda.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#main_p {
+	margin: 0;
+	background-color: white;
+}
+
+#beachHeader {
+	background: linear-gradient(to right, #fdc830, #f37335);
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+
+#indexHeader {
+	background: linear-gradient(to left, #ece9e6, #ffffff);
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+
+#mountainsHeader {
+	background: linear-gradient(to right, #e6dada, #274046);
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+
+#forestHeader {
+	background: linear-gradient(to right, #5a3f37, #2c7744);
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+
+#lakesHeader {
+	background: linear-gradient(to right, #74ebd5, #acb6e5);
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+
+.header .first_list{
+	list-style-type: none;
+	vertical-align: middle;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-left: 69px;
+}
+
+.indexHeader .first_list{
+	list-style-type: none;
+	vertical-align: middle;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-left: 69px;
+}
+
+.forestHeader .first_list{
+	list-style-type: none;
+	vertical-align: middle;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-left: 69px;
+}
+
+
+.header .main_li {
+	border-radius: 14px;
+	display: inline;
+	margin: 30px;
+	font-size: 14pt;
+	padding: 10px;
+	transition: background 0.3s linear;
+	color: #3A2B2E;
+	background-color: rgba(0, 0, 0, 0.025);
+}
+
+.forestHeader .main_li {
+	border-radius: 14px;
+	display: inline;
+	margin: 30px;
+	font-size: 14pt;
+	padding: 10px;
+	transition: background 0.3s linear;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.025);
+}
+
+.indexHeader .main_li{
+	border-radius: 14px;
+	display: inline;
+	margin: 30px;
+	font-size: 14pt;
+	padding: 10px;
+	transition: background 0.3s linear;
+	color: #3A2B2E;
+	background-color: rgba(0, 0, 0, 0.025);
+}
+
+#spn {
+	border-radius: 20px;
+	display: inline;
+	margin: 30px;
+	font-size: 18pt;
+	padding: 10px;
+	transition: background 0.3s linear;
+
+}
+
+.header .main_li:hover {
+	border-radius: 15px;
+	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
+	background: #F3F3F3;
+}
+
+.header .main_li::selection {
+	color: red;
+}
+
+.indexHeader .main_li:hover {
+	border-radius: 15px;
+	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
+	background: black;
+	color: white;
+}
+
+.indexHeader .main_li::selection {
+	color: red;
+}
+
+.forestHeader .main_li:hover {
+	border-radius: 15px;
+	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
+	background: black;
+	color: white;
+}
+
+.forestHeader .main_li::selection {
+	color: red;
+}
+
+
+.main_li b::selection {
+	color: red;
+}
+
+.cont {
+	width: 65%;
+	float: right;
+}
+
+.indexCont {
+	margin: 0 auto;
+	max-width: 1080px;
+}
+
+.indexInfo {
+	width: 100%;
+	height: 82.9vh;
+	box-shadow: 0px 10px 12.5px 1px #1F1F1F;
+	background-color: white;
+	padding: 2vh;
+	padding-bottom: 0vh;
+}
+
+.info {
+	width: 90%;
+	height: 284.9vh;
+	box-shadow: 0px 10px 12.5px 1px #f68934;
+	background-color: white;
+}
+
+.sidebar {
+	background-color: white;
+	float: left;
+	width: 75%;
+	height: 80vh;
+}
+
+.content {
+	background-color: white;
+	width: 20%;
+	float: left;
+	height: 80vh;
+	box-shadow: 0px 10px 12.5px 1px #f68934;
+	margin-left: 10%;
+	position: fixed;
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.01);
+	height: 5vh;
+	width: 100%;
+}
+
+.by {
+	position: fixed;
+	top: 97vh;
+	font-size: 10pt;
+}
+
+.beachBy {
+	font-size: 10pt;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #262626;
+	text-decoration: none;
+}
+
+.indexHeader a:visited {
+	color: inherit;
+}
+
+.indexHeader a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.forestHeader a:visited {
+	color: inherit;
+}
+
+.forestHeader a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.indexInfo h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.mountInfo {
+	width: 90%;
+	height: 284.9vh;
+	box-shadow: 0px 10px 12.5px 1px #082253;
+	background-color: white;
+}
+
+.mountContent {
+	background-color: white;
+	width: 20%;
+	float: left;
+	height: 80vh;
+	box-shadow: 0px 10px 12.5px 1px #082253;
+	margin-left: 10%;
+	position: fixed;
+}
+
+.forestInfo {
+	width: 90%;
+	height: 284.9vh;
+	box-shadow: 0px 10px 12.5px 1px #405e3e;
+	background-color: white;
+}
+
+.forestContent {
+	background-color: white;
+	width: 20%;
+	float: left;
+	height: 80vh;
+	box-shadow: 0px 10px 12.5px 1px #405e3e;
+	margin-left: 10%;
+	position: fixed;
+}
+
+.lakesInfo {
+	width: 90%;
+	height: 284.9vh;
+	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
+	background-color: white;
+}
+
+.lakesContent {
+	background-color: white;
+	width: 20%;
+	float: left;
+	height: 80vh;
+	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
+	margin-left: 10%;
+	position: fixed;
+}
