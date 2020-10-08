@@ -200,9 +200,10 @@ html {
 
 .info {
 	width: 90%;
-	height: 284.9vh;
-	box-shadow: 0px 10px 12.5px 1px #f68934;
 	background-color: white;
+	height: 80.9vh;
+	padding: 2vh;
+	box-shadow: 0px 10px 12.5px 1px #f68934;
 }
 
 .sidebar {
@@ -273,9 +274,10 @@ a:visited {
 
 .mountInfo {
 	width: 90%;
-	height: 284.9vh;
+	height: 80.9vh;
 	box-shadow: 0px 10px 12.5px 1px #082253;
 	background-color: white;
+	padding: 2vh;
 }
 
 .mountContent {
@@ -290,9 +292,10 @@ a:visited {
 
 .forestInfo {
 	width: 90%;
-	height: 284.9vh;
 	box-shadow: 0px 10px 12.5px 1px #405e3e;
 	background-color: white;
+	height: 80.9vh;
+	padding: 2vh;
 }
 
 .forestContent {
@@ -307,7 +310,8 @@ a:visited {
 
 .lakesInfo {
 	width: 90%;
-	height: 284.9vh;
+	height: 80.9vh;
+	padding: 2vh;
 	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
 	background-color: white;
 }
