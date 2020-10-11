@@ -144,7 +144,6 @@ html {
 
 .header .main_li:hover {
 	border-radius: 15px;
-	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
 	background: #F3F3F3;
 }
 
@@ -154,7 +153,6 @@ html {
 
 .indexHeader .main_li:hover {
 	border-radius: 15px;
-	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
 	background: black;
 	color: white;
 }
@@ -165,7 +163,6 @@ html {
 
 .forestHeader .main_li:hover {
 	border-radius: 15px;
-	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
 	background: black;
 	color: white;
 }
@@ -217,7 +214,7 @@ html {
 	background-color: white;
 	width: 20%;
 	float: left;
-	height: 80vh;
+	height: 84.9vh;
 	box-shadow: 0px 10px 12.5px 1px #f68934;
 	margin-left: 10%;
 	position: fixed;
@@ -284,7 +281,7 @@ a:visited {
 	background-color: white;
 	width: 20%;
 	float: left;
-	height: 80vh;
+	height: 84.9vh;
 	box-shadow: 0px 10px 12.5px 1px #082253;
 	margin-left: 10%;
 	position: fixed;
@@ -302,7 +299,7 @@ a:visited {
 	background-color: white;
 	width: 20%;
 	float: left;
-	height: 80vh;
+	height: 84.9vh;
 	box-shadow: 0px 10px 12.5px 1px #405e3e;
 	margin-left: 10%;
 	position: fixed;
@@ -320,7 +317,7 @@ a:visited {
 	background-color: white;
 	width: 20%;
 	float: left;
-	height: 80vh;
+	height: 84.9vh;
 	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
 	margin-left: 10%;
 	position: fixed;
