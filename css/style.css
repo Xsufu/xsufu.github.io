@@ -2,6 +2,10 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
+body::selection {
+	color: red;
+}
+
 #beach {
 	margin: 0;
 	background-image: url(../img/yolka.jpg);
@@ -197,7 +201,11 @@ html {
 
 .info {
 	width: 90%;
-	background-color: white;
+	/*background-color: white;*/
+	background-image: url(../img/beach.jpg);
+	background-size: cover;
+	border: 2px solid orange;
+	background-repeat: no-repeat;
 	height: 80.9vh;
 	padding: 2vh;
 	box-shadow: 0px 10px 12.5px 1px #f68934;
@@ -267,6 +275,10 @@ a:visited {
 .indexInfo h1 {
 	text-align: center;
 	margin-top: 0;
+}
+
+.MainText {
+	font-size: 17pt;
 }
 
 .mountInfo {
