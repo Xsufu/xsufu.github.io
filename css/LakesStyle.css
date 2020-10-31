@@ -1,0 +1,178 @@
+html {
+	font-family: 'Raleway', sans-serif;
+}
+
+body::selection {
+	color: red;
+}
+
+#spn {
+	border-radius: 20px;
+	display: inline;
+	margin: 30px;
+	font-size: 18pt;
+	padding: 10px;
+	transition: background 0.3s linear;
+
+}
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.01);
+	height: 5vh;
+	width: 100%;
+}
+
+.by {
+	position: fixed;
+	top: 97vh;
+	font-size: 10pt;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #262626;
+	text-decoration: none;
+}
+
+.text {
+	font-size: 12pt;
+}
+
+.cont {
+	width: 65%;
+	float: right;
+}
+
+#lakes {
+	margin: 0;
+	background-image: url(../img/voda.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#lakesHeader {
+	background: linear-gradient(to right, #74ebd5, #acb6e5);
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+
+.lakesInfo {
+	width: 90%;
+	height: 85.3vh;
+	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
+	background-color: white;
+	/*background-image: url(../img/baikal.jpg);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 0px 00px 10px 10px;
+}
+
+.Img1 {
+	width: 75%;
+	height: 65%;
+	float: right;
+	z-index: 0;
+}
+
+.Img2 {
+	width: 30%;
+	height: 40%;
+	float: left;
+	z-index: 1;
+	top: 55.3%;
+	position: absolute;
+	border-radius: 0px 10px 0px 10px;
+}
+
+.lakesContent {
+	background-color: white;
+	width: 25%;
+	float: left;
+	height: 83.9vh;
+	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
+	margin-left: 5%;
+	position: fixed;
+	padding: 10px;
+	padding-top: 0px;
+	border-radius: 7px 7px 7px 7px;
+}
+
+.lakesContent a:link {
+	color: blue;
+}
+
+.lakesContent a:visited {
+	color: #020068;
+}
+
+.header .first_list {
+	list-style-type: none;
+	vertical-align: middle;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-left: 69px;
+}
+
+.header .main_li {
+	border-radius: 14px;
+	display: inline;
+	margin: 30px;
+	font-size: 14pt;
+	padding: 10px;
+	transition: background 0.3s linear;
+	color: #3A2B2E;
+	background-color: rgba(0, 0, 0, 0.025);
+}
+.header .main_li:hover {
+	border-radius: 15px;
+	background: #F3F3F3;
+}
+
+.header .main_li::selection {
+	color: red;
+}
+
+.main_li b::selection {
+	color: red;
+}
+
+/*Выпадающее менею*/
+ul.first_list li ul{
+	display: none;
+}
+
+ul.first_list li:hover ul {
+	display: block;
+	position: absolute;
+	top: 8%;
+	left: 69%	;
+	border-radius: 10px;
+	background-color: rgba(140, 140, 225, 0.9);	
+	z-index: 1000;
+}
+
+.hover_li {
+	list-style: none;
+	border-radius: 14px;
+	margin: 10px;
+	padding: 6px;
+	transition: background 0.3s linear;
+	color: #3A2B2E;
+}
+
+.hover_li:hover {
+	background: #F3F3F3;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 6px;
+}
+
+.hover_ul {
+	padding: 10px;
+}

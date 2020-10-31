@@ -6,84 +6,17 @@ body::selection {
 	color: red;
 }
 
-#beach {
-	margin: 0;
-	background-image: url(../img/yolka.jpg);
-	background-size: 120%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-#mountains {
-	margin: 0;
-	background-image: url(../img/holm.jpg);
-	background-size: 120%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-#forest {
-	margin: 0;
-	background-image: url(../img/les.jpg);
-	background-size: 120%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-#lakes {
-	margin: 0;
-	background-image: url(../img/voda.jpg);
-	background-size: 120%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
 #main_p {
 	margin: 0;
 	background-color: white;
 }
 
-#beachHeader {
-	background: linear-gradient(to right, #fdc830, #f37335);
-	height: 10vh;
-	text-align: center;
-	line-height: 10vh;
-}
-
 #indexHeader {
-	background: linear-gradient(to left, #ece9e6, #ffffff);
+	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
+	background: radial-gradient(#ffffff, #ece9e6);
 	height: 10vh;
 	text-align: center;
 	line-height: 10vh;
-}
-
-#mountainsHeader {
-	background: linear-gradient(to right, #e6dada, #274046);
-	height: 10vh;
-	text-align: center;
-	line-height: 10vh;
-}
-
-#forestHeader {
-	background: linear-gradient(to right, #5a3f37, #2c7744);
-	height: 10vh;
-	text-align: center;
-	line-height: 10vh;
-}
-
-#lakesHeader {
-	background: linear-gradient(to right, #74ebd5, #acb6e5);
-	height: 10vh;
-	text-align: center;
-	line-height: 10vh;
-}
-
-.header .first_list{
-	list-style-type: none;
-	vertical-align: middle;
-	margin-top: 0px;
-	padding-left: 0px;
-	margin-left: 69px;
 }
 
 .indexHeader .first_list{
@@ -91,49 +24,35 @@ body::selection {
 	vertical-align: middle;
 	margin-top: 0px;
 	padding-left: 0px;
-	margin-left: 69px;
+	margin-left: 0px;
+	width: 20vw;
 }
 
-.forestHeader .first_list{
+.second_list {
 	list-style-type: none;
 	vertical-align: middle;
 	margin-top: 0px;
 	padding-left: 0px;
-	margin-left: 69px;
-}
-
-
-.header .main_li {
-	border-radius: 14px;
-	display: inline;
-	margin: 30px;
-	font-size: 14pt;
-	padding: 10px;
-	transition: background 0.3s linear;
-	color: #3A2B2E;
-	background-color: rgba(0, 0, 0, 0.025);
-}
-
-.forestHeader .main_li {
-	border-radius: 14px;
-	display: inline;
-	margin: 30px;
-	font-size: 14pt;
-	padding: 10px;
-	transition: background 0.3s linear;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.025);
 }
 
 .indexHeader .main_li{
 	border-radius: 14px;
-	display: inline;
-	margin: 30px;
+	/*display: inline;*/
+	margin-top: 15px;
 	font-size: 14pt;
 	padding: 10px;
+	width: 10vw;
 	transition: background 0.3s linear;
 	color: #3A2B2E;
 	background-color: rgba(0, 0, 0, 0.025);
+	/*box-shadow: 2px 1px 2px 1px black;*/
+}
+
+.hideLi {
+	/*display: inline;*/
+	margin: 30px;
+	font-size: 14pt;
+	padding: 10px;
 }
 
 #spn {
@@ -143,16 +62,7 @@ body::selection {
 	font-size: 18pt;
 	padding: 10px;
 	transition: background 0.3s linear;
-
-}
-
-.header .main_li:hover {
-	border-radius: 15px;
-	background: #F3F3F3;
-}
-
-.header .main_li::selection {
-	color: red;
+	text-shadow: 0px 0px 2px 5px black;
 }
 
 .indexHeader .main_li:hover {
@@ -165,25 +75,10 @@ body::selection {
 	color: red;
 }
 
-.forestHeader .main_li:hover {
-	border-radius: 15px;
-	background: black;
-	color: white;
-}
-
-.forestHeader .main_li::selection {
-	color: red;
-}
-
-
 .main_li b::selection {
 	color: red;
 }
 
-.cont {
-	width: 65%;
-	float: right;
-}
 
 .indexCont {
 	margin: 0 auto;
@@ -197,37 +92,7 @@ body::selection {
 	background-color: white;
 	padding: 2vh;
 	padding-bottom: 0vh;
-}
-
-.info {
-	width: 90%;
-	/*background-color: white;*/
-	background-image: url(../img/beach.jpg);
-	background-size: cover;
-	border: 2px solid orange;
-	background-repeat: no-repeat;
-	height: 80.5vh;
-	padding: 2vh;
-	box-shadow: 0px 10px 12.5px 1px #f68934;
-}
-
-.sidebar {
-	background-color: white;
-	float: left;
-	width: 75%;
-	height: 80vh;
-}
-
-.content {
-	background-color: white;
-	width: 25%;
-	float: left;
-	height: 83.6vh;
-	box-shadow: 0px 10px 12.5px 1px #f68934;
-	margin-left: 5%;
-	position: fixed;
-	padding: 10px;
-	padding-top: 0px;
+	border-radius: 0px 0px 10px 10px;
 }
 
 .footer {
@@ -239,10 +104,6 @@ body::selection {
 .by {
 	position: fixed;
 	top: 97vh;
-	font-size: 10pt;
-}
-
-.beachBy {
 	font-size: 10pt;
 }
 
@@ -265,15 +126,6 @@ a:visited {
 	text-decoration: none;
 }
 
-.forestHeader a:visited {
-	color: inherit;
-}
-
-.forestHeader a:link {
-	color: inherit;
-	text-decoration: none;
-}
-
 .indexInfo h1 {
 	text-align: center;
 	margin-top: 0;
@@ -283,105 +135,109 @@ a:visited {
 	font-size: 17pt;
 }
 
-.mountInfo {
-	width: 90%;
-	height: 80.9vh;
-	box-shadow: 0px 10px 12.5px 1px #082253;
-	background-color: white;
-	padding: 2vh;
-	background-image: url(../img/altaj.jpg);
-}
-
-.mountContent {
-	background-color: white;
-	width: 25%;
-	float: left;
-	height: 83.6vh;
-	box-shadow: 0px 10px 12.5px 1px #082253;
-	margin-left: 5%;
-	position: fixed;
-	padding: 10px;
-	padding-top: 0px;
-}
-
-.forestInfo {
-	width: 90%;
-	box-shadow: 0px 10px 12.5px 1px #405e3e;
-	background-color: white;
-	height: 80.9vh;
-	padding: 2vh;
-	background-image: url(../img/zap.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.forestContent {
-	background-color: white;
-	width: 25%;
-	float: left;
-	height: 83.6vh;
-	box-shadow: 0px 10px 12.5px 1px #405e3e;
-	margin-left: 5%;
-	position: fixed;
-	padding: 10px;
-	padding-top: 0px;
-}
-
-.lakesInfo {
-	width: 90%;
-	height: 80.9vh;
-	padding: 2vh;
-	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
-	background-color: white;
-	background-image: url(../img/baikal.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.lakesContent {
-	background-color: white;
-	width: 25%;
-	float: left;
-	height: 83.9vh;
-	box-shadow: 0px 10px 12.5px 1px #9bc6e0;
-	margin-left: 5%;
-	position: fixed;
-	padding: 10px;
-	padding-top: 0px;
-}
-
-.content a:link {
-	color: blue;
-}
-
-.content a:visited {
-	color: #020068;
-}
-
-.forestContent a:link {
-	color: blue;
-}
-
-.forestContent a:visited {
-	color: #020068;
-}
-
-.lakesContent a:link {
-	color: blue;
-}
-
-.lakesContent a:visited {
-	color: #020068;
-}
-
-.mountContent a:link {
-	color: blue;
-}
-
-.mountContent a:visited {
-	color: #020068;
-}
-
 .text {
 	font-size: 12pt;
+}
+
+/*Выпадающее меню*/
+ul.first_list li ul{
+	display: none;
+}
+
+img.MenuButton {
+	position: absolute;
+	left: 22%;
+	top: 3.5vh;
+}
+
+ul.first_list li:hover ul {
+	/*display: inline;*/
+	display: block;
+	position: absolute;
+	top: 9vh;
+	border-radius: 0px 7px 7px 0px;
+	/*background-color: rgba(225, 225, 225, 0.9);*/
+	background: linear-gradient(to right, #EDEDED, #D9D9D9);
+	opacity: 98%;
+	z-index: 1000;
+	padding: 0px;
+	/*box-shadow: 2px 0px 1px 1px black;*/
+	box-shadow: 2px 0px 5px 1px #1F1F1F;
+}
+
+ul.second_list li.main_li ul.vert_ul_Beach {
+	display: none;
+	position: absolute;
+	left: 11.3vw;
+	padding-left: 0; 
+	top: 3.5vh;
+	list-style: none;
+	width: 23vw;
+}
+
+ul.second_list li.main_li ul.vert_ul_Mount {
+	display: none;
+	position: absolute;
+	left: 11.3vw;
+	padding-left: 0; 
+	top: 18vh;
+	list-style: none;
+	width: 13vw;
+}
+
+ul.second_list li.main_li ul.vert_ul_Forest {
+	display: none;
+	position: absolute;
+	left: 11.3vw;
+	padding-left: 0; 
+	top: 32.5vh;
+	list-style: none;
+	width: 15vw;
+}
+
+ul.second_list li.main_li ul.vert_ul_Lakes {
+	display: none;
+	position: absolute;
+	left: 11.3vw;
+	padding-left: 0; 
+	top: 47vh;
+	list-style: none;
+	width: 15vw;
+}
+
+ul.second_list li.main_li:hover ul {
+	display: block;
+}
+
+ul.second_list li.main_li:hover ul li.vert_li {
+	border-radius: 14px;
+	transition: background 0.1s linear;
+	color: #3A2B2E;
+	background-color: rgba(0, 0, 0, 0.025);
+}
+
+ul.second_list li.main_li ul li.vert_li:hover {
+	border-radius: 15px;
+	background: black;
+	color: white;
+}
+
+/**/
+
+.TeSh {
+	text-shadow: 0px 0px 1px black;
+}
+
+.ShLe {
+	text-shadow: -1px 0px 1px black;
+}
+
+.ShRi {
+	text-shadow: 1px 0px 1px black;
+}
+
+.icon {
+	position: absolute;
+	top: 3.5vh;
+	left: 0;
 }
