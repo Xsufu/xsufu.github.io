@@ -14,9 +14,10 @@ body::selection {
 #indexHeader {
 	/*background: linear-gradient(to left, #ece9e6, #ffffff);*/
 	background: radial-gradient(#ffffff, #ece9e6);
-	height: 10vh;
+	height: 5rem;
 	text-align: center;
-	line-height: 10vh;
+	line-height: 5rem;
+	width: 100%;
 }
 
 .indexHeader .first_list{
@@ -25,7 +26,7 @@ body::selection {
 	margin-top: 0px;
 	padding-left: 0px;
 	margin-left: 0px;
-	width: 20vw;
+	width: 10rem;
 }
 
 .second_list {
@@ -38,10 +39,10 @@ body::selection {
 .indexHeader .main_li{
 	border-radius: 14px;
 	/*display: inline;*/
-	margin-top: 15px;
+	margin-top: 0.9375px;
 	font-size: 14pt;
-	padding: 10px;
-	width: 10vw;
+	padding: 0.625rem;
+	width: 10.7rem;
 	transition: background 0.3s linear;
 	color: #3A2B2E;
 	background-color: rgba(0, 0, 0, 0.025);
@@ -50,23 +51,23 @@ body::selection {
 
 .hideLi {
 	/*display: inline;*/
-	margin: 30px;
+	margin: 1.875rem;
 	font-size: 14pt;
-	padding: 10px;
+	padding: 0.625rem;
 }
 
 #spn {
 	border-radius: 20px;
 	display: inline;
-	margin: 30px;
+	margin: 1.875rem;
 	font-size: 18pt;
-	padding: 10px;
+	padding: 0.625rem;
 	transition: background 0.3s linear;
 	text-shadow: 0px 0px 2px 5px black;
 }
 
 .indexHeader .main_li:hover {
-	border-radius: 15px;
+	border-radius: 0.9375rem;
 	background: black;
 	color: white;
 }
@@ -82,7 +83,7 @@ body::selection {
 
 .indexCont {
 	margin: 0 auto;
-	max-width: 1080px;
+	max-width: 67.5rem;
 }
 
 .indexInfo {
@@ -144,17 +145,11 @@ ul.first_list li ul{
 	display: none;
 }
 
-img.MenuButton {
-	position: absolute;
-	left: 22%;
-	top: 3.5vh;
-}
-
 ul.first_list li:hover ul {
 	/*display: inline;*/
 	display: block;
 	position: absolute;
-	top: 9vh;
+	top: 4.6875rem;
 	border-radius: 0px 7px 7px 0px;
 	/*background-color: rgba(225, 225, 225, 0.9);*/
 	background: linear-gradient(to right, #EDEDED, #D9D9D9);
@@ -168,41 +163,41 @@ ul.first_list li:hover ul {
 ul.second_list li.main_li ul.vert_ul_Beach {
 	display: none;
 	position: absolute;
-	left: 11.3vw;
+	left: 12rem;
 	padding-left: 0; 
-	top: 3.5vh;
+	top: 1rem;
 	list-style: none;
-	width: 23vw;
+	width: 29.8125rem;
 }
 
 ul.second_list li.main_li ul.vert_ul_Mount {
 	display: none;
 	position: absolute;
-	left: 11.3vw;
+	left: 12rem;
 	padding-left: 0; 
-	top: 18vh;
+	top: 7.2rem;
 	list-style: none;
-	width: 13vw;
+	width: 20rem;
 }
 
 ul.second_list li.main_li ul.vert_ul_Forest {
 	display: none;
 	position: absolute;
-	left: 11.3vw;
+	left: 12rem;
 	padding-left: 0; 
-	top: 32.5vh;
+	top: 13.4rem;
 	list-style: none;
-	width: 15vw;
+	width: 15rem;
 }
 
 ul.second_list li.main_li ul.vert_ul_Lakes {
 	display: none;
 	position: absolute;
-	left: 11.3vw;
+	left: 12rem;
 	padding-left: 0; 
-	top: 47vh;
+	top: 19.6rem;
 	list-style: none;
-	width: 15vw;
+	width: 20rem;
 }
 
 ul.second_list li.main_li:hover ul {
@@ -221,7 +216,6 @@ ul.second_list li.main_li ul li.vert_li:hover {
 	background: black;
 	color: white;
 }
-
 /**/
 
 .TeSh {
@@ -238,6 +232,7 @@ ul.second_list li.main_li ul li.vert_li:hover {
 
 .icon {
 	position: absolute;
-	top: 3.5vh;
+	/*top: 3.8%;*/
+	top: 2.2rem;
 	left: 0;
 }

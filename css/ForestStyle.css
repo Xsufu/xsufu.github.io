@@ -57,9 +57,9 @@ a:visited {
 
 #forestHeader {
 	background: linear-gradient(to right, #5a3f37, #2c7744);
-	height: 10vh;
+	height: 5rem;
 	text-align: center;
-	line-height: 10vh;
+	line-height: 5rem;
 }
 
 .forestHeader .first_list{

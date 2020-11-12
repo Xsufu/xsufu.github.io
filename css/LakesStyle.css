@@ -13,7 +13,6 @@ body::selection {
 	font-size: 18pt;
 	padding: 10px;
 	transition: background 0.3s linear;
-
 }
 
 .footer {
@@ -57,9 +56,9 @@ a:visited {
 
 #lakesHeader {
 	background: linear-gradient(to right, #74ebd5, #acb6e5);
-	height: 10vh;
 	text-align: center;
-	line-height: 10vh;
+	height: 5rem;
+	line-height: 5rem;
 }
 
 .lakesInfo {
@@ -151,7 +150,7 @@ ul.first_list li:hover ul {
 	display: block;
 	position: absolute;
 	top: 8%;
-	left: 69%	;
+	left: 67%;
 	border-radius: 10px;
 	background-color: rgba(140, 140, 225, 0.9);	
 	z-index: 1000;

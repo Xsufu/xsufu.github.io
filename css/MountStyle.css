@@ -15,10 +15,12 @@ body::selection {
 }
 
 #mountainsHeader {
-	background: linear-gradient(to right, #e6dada, #274046);
-	height: 10vh;
+	/*background: linear-gradient(to right, #e6dada, #274046);*/
+	 /*background: linear-gradient(to left, #403b4a, #e7e9bb);*/
+	 background: linear-gradient(to right, #bbd2c5, #536976);
 	text-align: center;
-	line-height: 10vh;
+	height: 5rem;
+	line-height: 5rem;
 }
 
 .header .first_list {
@@ -26,15 +28,15 @@ body::selection {
 	vertical-align: middle;
 	margin-top: 0px;
 	padding-left: 0px;
-	margin-left: 69px;
+	margin-left: 4.3125rem;
 }
 
 .header .main_li {
 	border-radius: 14px;
 	display: inline;
-	margin: 30px;
+	margin: 1.875rem;
 	font-size: 14pt;
-	padding: 10px;
+	padding: 0.625rem;
 	transition: background 0.3s linear;
 	color: #3A2B2E;
 	background-color: rgba(0, 0, 0, 0.025);
@@ -43,9 +45,9 @@ body::selection {
 #spn {
 	border-radius: 20px;
 	display: inline;
-	margin: 30px;
+	margin: 1.875rem;
 	font-size: 18pt;
-	padding: 10px;
+	padding: 0.625rem;
 	transition: background 0.3s linear;
 
 }
@@ -138,7 +140,7 @@ a:visited {
 	box-shadow: 0px 10px 12.5px 1px #082253;
 	margin-left: 5%;
 	position: fixed;
-	padding: 10px;
+	padding: 0.625rem;
 	padding-top: 0px;
 	border-radius: 7px 7px 7px 7px;
 }
@@ -151,8 +153,8 @@ ul.first_list li ul{
 ul.first_list li:hover ul.hover_ul {
 	display: block;
 	position: absolute;
-	top: 8%;
-	left: 32.1%;
+	top: 3.9rem;
+	left: 33.1%;
 	border-radius: 10px;
 	background-color: rgba(100, 100, 225, 0.9);	
 	z-index: 1000;
@@ -161,7 +163,7 @@ ul.first_list li:hover ul.hover_ul {
 ul.first_list li:hover ul.strange_ul {
 	display: block;
 	position: absolute;
-	top: 8%;
+	top: 3.9rem;
 	left: 35.31%;
 	border-radius: 10px;
 	background-color: rgba(100, 100, 225, 0.9);	
@@ -172,8 +174,8 @@ ul.first_list li:hover ul.strange_ul {
 .hover_li {
 	list-style: none;
 	border-radius: 14px;
-	margin: 10px;
-	padding: 6px;
+	margin: 0.625rem;
+	padding: 0.375rem;
 	transition: background 0.3s linear;
 	color: #3A2B2E;
 }
@@ -181,14 +183,14 @@ ul.first_list li:hover ul.strange_ul {
 .hover_li:hover {
 	background: #F3F3F3;
 	border-radius: 15px;
-	margin: 10px;
-	padding: 6px;
+	margin: 0.625rem;
+	padding: 0.375rem;
 }
 
 .hover_ul {
-	padding: 10px;
+	padding: 0.625rem;
 }
 
 .strange_ul {
-	padding: 10px;
+	padding: 0.625rem;
 }
