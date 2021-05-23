@@ -1,63 +1,123 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Вокруг света</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<title><? echo $title ?></title>
 </head>
-	<body id="main_p">
-		<div class="container">
-			<div id="indexHeader" class="indexHeader">
-				<ul class="first_list">
-					<li id="spn" class="hideLi"> <img class="icon" src="https://img.icons8.com/ios-glyphs/40/000000/drag-list-down.png"/>
-						<ul class="second_list">
-							<a href="beach.html"><li id="BeachLi" class="main_li"><span class="ShLe">Пляжи</span>
-								<ul class="vert_ul_Beach">
-									<a href="beach_2.html"><li class="vert_li">Грейс-Бэй, остров Провиденсиалес</li></a>
-									<a href="beach_3.html"><li class="vert_li">Пляж Капуташ</li></a>
-									<a href="beach_4.html"><li class="vert_li">Майя-Бэй, остров Пхи-Пхи-Ле</li></a>
-								</ul>
-							</li></a>
-							<a href="mountains.html"><li class="main_li"><span class="ShLe">Горы</span>
-								<ul class="vert_ul_Mount">
-									<a href="mountains_2.html"><li class="vert_li">Доломитовые Альпы</li></a>
-									<a href="mountains_3.html"><li class="vert_li">Татры</li></a>
-									<a href="mountains_4.html"><li class="vert_li">Пиренеи</li></a>
-								</ul>
-							</li></a>
-							<a href="forest.html"><li class="main_li"><span class="ShRi">Заповедники</span>
-								<ul class="vert_ul_Forest">
-									<a href="forest_2.html"><li class="vert_li">Заповедник Фьордланд</li></a>
-									<a href="forest_3.html"><li class="vert_li">Сарек, Швеция</li></a>
-									<a href="forest_4.html"><li class="vert_li">Банф, Канада</li></a>
-								</ul>
-							</li></a>
-							<a href="lakes.html"><li class="main_li"><span class="ShRi">Озёра</span>
-								<ul class="vert_ul_Lakes">
-									<a href="lakes_2.html"><li class="vert_li">Озеро Комо, Италия</li></a>
-									<a href="lakes_3.html"><li class="vert_li">Озеро Накуру, Кения</li></a>
-									<a href="lakes_4.html"><li class="vert_li">Морейн, Канада</li></a>
-								</ul>
-							</li></a>
-						</ul>
-					</li>
+	<body>
+		<div class="header">
+			<div class="main_photo">
+				<a href="?GET_ID_SECTION=0"><img src="img/favicon.png" alt=""></a>
+			</div>
+			<div class="site_name">
+				<a href="?GET_ID_SECTION=0"><span class="name">Taxa Travel</span></a>
+			</div>
+
+			<nav class="navigation">
+				<ul>
+					<a href="?GET_ID_SECTION=0"><li>Главная</li></a>
+					<a href="?GET_ID_SECTION=1"><li>Еда</li></a>
+					<a href="?GET_ID_SECTION=2"><li>Развлечения</li></a>
+					<a href="?GET_ID_SECTION=3"><li>Отдых</li></a>
 				</ul>
+			</nav>
+		</div>
+
+		<!--Начало динамических страниц-->
+			<?
+				include($fileContent);
+			?>
+		<!--Конец динамических страниц-->
+
+		<div class="footer">
+			<div class="left_foot">
+				<div class="adress">
+					ул. Красный пр-т, Новосибирск <br>
+					610091, Россия <br>
+					taxa.travel@gmail.com
+				</div>
+
+				<div class="copyright">
+					©2021 TAXA TRAVEL <br>
+					Сайт создан с душой <br> и любовью
+				</div>
+			</div>
+
+			<div class="form">
+				<form action="mailto:taxa.travel@gmail.com" method="POST" accept-charset="UTF-8" enctype="text/plain">
+					<div id="input-zone">
+						<div id="name">
+							<input required="" placeholder="Имя" name="name" type="text">
+						</div>
+
+						<div id="mail">
+							<input required="" placeholder="E-mail" type="email" name="e-mail">
+						</div>
+
+						<div id="phone">
+							<input required="" placeholder="Номер телефона" type="text" name="phone">
+						</div>
+					</div>
+
+					<div id="txt-area">
+						<textarea placeholder="Добавьте сообщение..." name="area" id="" cols="15" rows="5"></textarea>
+					</div>
+
+					<div class="button">
+						<input class="i_but" type="submit">
+					</div>
+				</form>
+			</div>
+
+			<div class="right_foot">
+				<div class="three-icons">
+					<div><a href="?GET_ID_SECTION=1"><img src="img/g_pine.webp" alt=""></a></div>
+					<div><a href="?GET_ID_SECTION=3"><img src="img/g_palm.webp" alt=""></a></div>
+					<div><a href="?GET_ID_SECTION=2"><img src="img/g_shar.webp" alt=""></a></div>
+				</div>
+
+				<div class="media">
+					<div><a onclick="return confirm('Вы уверены, что хотите перейти на сайт vk.com?');" href="https://vk.com/aluno_macarrao"><img src="img/vk.png" alt=""></a></div>
+					<div><a onclick="return confirm('Вы уверены, что хотите перейти на сайт instagram.com?');" href="https://www.instagram.com/xsufu_dev/"><img src="img/instagram.png" alt=""></a></div>
+				</div>
 			</div>
 		</div>
 
-		<div class="indexCont">
-			<div class="indexInfo">
-				<h1>В общем и целом о сайте</h1>
-				<span class="MainText">Данный сайт посвящён разнообразным красивым местам нашей планеты, начиная со снежных горных вершин, заканчивая лазурными пляжами. <br> <br> Отдых имеет особую роль в нашей жизни: отдыхая, мы набираемся сил, находим вдохновение и можем врываться в новый цикл однообразной жизни заново. Отдыхать можно и сидя у телевизора, но от такого отдыха вряд ли станет лучше. Необходимо переодически выходить на природу и путешестовать. Именно для этого и создан данный сайт: показать красоту нашей планеты и места, куда можно поехать за уединением и спокойствием. <br> <br>
-				Тут всё довольно просто - выбери что тебе больше нравится из меню наверху и тыкни на слово. На странице ты найдёшь фотографию и расположение данного места, а также немного слов или интересных фактов о нём. <br><br>
-				Мир удивителен. Этот сайт отображает лишь малую часть всех земных красот, которые есть на нашей планете. Но даже такое небольшое количество разнообразных мест может послужить началом твоего нового и удивительного путешествия. Так что все только в твоих руках!</span>
-			</div>
+		<script src="jquery-3.6.0.min.js"></script>
+		<script>
+			//Массив картинок
+			var images = [
+				"img/main_1.jpg",
+				"img/mount.jpg",
+				"img/snow.jpg"
+			]
+			//Позиция в массиве
+			var i = 0;
 
-			<div class="footer">
-				<span class="by" onclick="alert('А зачем так делать???')">by design Xsufu</span>
-			</div>
-		</div>		
+			function change() {
+				//Анимация опрозрачивания за 0,5сек
+				$("#slider").animate({ 'opacity': '0' }, 700, function() {
+					//Выбираем следующую картинку
+					i++;
+					//Если позиция вышла за границы массива
+					if (i >= images.length){
+						//Сдивагаем в начало
+						i = 0;
+					}
+					//Заменяем картинку в блоке
+					$("#slider").attr('src', images[i]);
+				});
+				//Анимация распрозрачивания за 0,6сек
+				$('#slider').animate({ 'opacity': '1' }, 600);
+				window.setTimeout(change, 7000);
+			}
+
+			window.setTimeout(change, 5000);
+		</script>
 	</body>
 </html>
